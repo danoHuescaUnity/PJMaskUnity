@@ -505,8 +505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -174}
-  m_SizeDelta: {x: 341.4185, y: 341.4185}
+  m_AnchoredPosition: {x: 0.000041962, y: -134}
+  m_SizeDelta: {x: 490.2887, y: 480.5986}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &459848439
 MonoBehaviour:
@@ -725,7 +725,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793606846}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 8407c0eb5f85c93459320a21b6b3d48e, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: ef383b3faf8b1e1439bad0b4270cc7a1, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1886921158}
@@ -914,8 +914,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030521, y: -448.28998}
-  m_SizeDelta: {x: 341.42, y: 123.3857}
+  m_AnchoredPosition: {x: -0.000030521, y: -396.20605}
+  m_SizeDelta: {x: 341.42, y: 227.5535}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &988008255
 MonoBehaviour:
@@ -936,14 +936,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 327994121}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: GoToScene
+        m_MethodName: PhotonLoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Intro
+          m_StringArgument: LoginScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &988008256

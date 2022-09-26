@@ -3,12 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using Photon.Pun;
 
 public class Countdown : MonoBehaviour
 {
 
     [SerializeField]
     private Text timerText;
+    [SerializeField]
+    private bool startOnLoad = false;
+    [SerializeField]
+    private bool hideCountdownUntil = false;
+    [SerializeField]
+    private float timeLeftToShowCountdown = 10.0f;
     [SerializeField]
     private int secunds;
     [SerializeField]
@@ -18,10 +25,20 @@ public class Countdown : MonoBehaviour
 
     private float time;
 
+    private void Awake()
+    {
+        startCountdown = startOnLoad;
+    }
+
     private void Start()
     {
         time = secunds;
         timerText.text = time.ToString();
+        if (hideCountdownUntil)
+        {
+            timerText.enabled = false;
+        }
+
     }
 
     void Update()
@@ -31,7 +48,12 @@ public class Countdown : MonoBehaviour
         time -= Time.deltaTime;
         updateTimer(time);
 
-        if (time <= 0)
+        if (hideCountdownUntil && !GameManager.instance.isManager && time <= timeLeftToShowCountdown)
+        {
+            timerText.enabled = true;
+        }
+
+        if (time <= 0 && !GameManager.instance.isManager)
         {
             startCountdown = false;
             OnCountDownFinished();
@@ -49,6 +71,8 @@ public class Countdown : MonoBehaviour
 
     void OnCountDownFinished()
     {
+        PhotonNetwork.LeaveRoom();
+        PhotonNetwork.LeaveLobby();
         if (OnCountownFinished != null)
             OnCountownFinished.Invoke();
     }

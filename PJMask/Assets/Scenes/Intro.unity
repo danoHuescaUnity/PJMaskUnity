@@ -958,7 +958,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793606846}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 8407c0eb5f85c93459320a21b6b3d48e, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 07d2557c9199f5147ae5f824af89114a, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 519420031}
@@ -1001,9 +1001,9 @@ MonoBehaviour:
   OnMovieFinishedPlaying:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2145002070}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: NextScene
+      - m_Target: {fileID: 2145002072}
+        m_TargetAssemblyTypeName: CreateAndJoinRoom, Assembly-CSharp
+        m_MethodName: JoinRoom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2430,6 +2430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2145002071}
   - component: {fileID: 2145002070}
+  - component: {fileID: 2145002072}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2463,3 +2464,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2145002072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145002069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc6c4bdda3fd8a54c8c6744192e6a3cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomName: PJMask

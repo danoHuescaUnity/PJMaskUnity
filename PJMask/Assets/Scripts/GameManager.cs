@@ -1,12 +1,21 @@
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+
+public class GameManager : MonoBehaviourPunCallbacks
 {
     public static GameManager instance = null;
 
+    public bool isManager = false;
+
+    [SerializeField]
+    private Transform mainCanvas = null;
+
+   
     private void Awake()
     {
         if (instance)
@@ -14,6 +23,21 @@ public class GameManager : MonoBehaviour
         else
             instance = this;
     }
+
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().name != "ARScene")
+            return;
+
+        GameObject playerUlulita = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Ululete"), Vector2.zero, Quaternion.identity);
+        playerUlulita.transform.parent = mainCanvas;
+        RectTransform ululitaRT = playerUlulita.GetComponent<RectTransform>();
+        ululitaRT.localPosition = Vector3.zero;
+        ululitaRT.anchoredPosition = Vector2.zero;
+        ululitaRT.sizeDelta = Vector2.zero;
+        ululitaRT.pivot = new Vector2(0.5f, 0.5f);
+    }
+
     public void NextScene()
     {
         int sceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -24,4 +48,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+
+    public void PhotonLoadScene(string scene)
+    {
+        PhotonNetwork.LoadLevel(scene);
+    }
+
 }
