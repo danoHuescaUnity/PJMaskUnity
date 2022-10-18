@@ -1,4 +1,5 @@
 using Photon.Pun;
+using Photon.Realtime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -40,7 +41,7 @@ public class ScoreManager : MonoBehaviour
     public void Scored()
     {
         score++;
-        scoreText.text = "Puntaje : " + score.ToString();
+        scoreText.text = "Score : " + score.ToString();
         Hashtable hash = new Hashtable();
         hash.Add("Score", score);
         PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
@@ -48,5 +49,4 @@ public class ScoreManager : MonoBehaviour
         if (score == maxScore)
             GameManager.instance.PhotonLoadScene("Win");
     }
-
 }
