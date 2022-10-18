@@ -1,9 +1,12 @@
 using Photon.Pun;
+using Photon.Realtime;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
+
 
 
 public class GameManager : MonoBehaviourPunCallbacks
@@ -52,6 +55,13 @@ public class GameManager : MonoBehaviourPunCallbacks
     public void PhotonLoadScene(string scene)
     {
         PhotonNetwork.LoadLevel(scene);
+    }
+
+    public void ResetScore()
+    {
+        Hashtable hash = new Hashtable();
+        hash.Add("Score", 0);
+        PhotonNetwork.LocalPlayer.SetCustomProperties(hash);
     }
 
 }
