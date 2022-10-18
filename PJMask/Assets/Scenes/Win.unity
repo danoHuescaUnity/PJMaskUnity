@@ -330,6 +330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481f1a789d85a1643a2def0e4a1d7fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isManager: 0
+  mainCanvas: {fileID: 0}
 --- !u!1 &402449523
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,6 +794,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  startButton: {fileID: 0}
+  repeatButton: {fileID: 0}
 --- !u!222 &793606850
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -930,10 +934,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 988008256}
+  startOnLoad: 0
+  hideCountdownUntil: 0
+  timeLeftToShowCountdown: 10
   secunds: 10
   OnCountownFinished:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 327994121}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ResetScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LoginScene
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 327994121}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: PhotonLoadScene
