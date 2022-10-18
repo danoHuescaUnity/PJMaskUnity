@@ -11,6 +11,13 @@ public class MovieController : MonoBehaviour
     [SerializeField]
     private UnityEvent OnMovieFinishedPlaying;
 
+    [SerializeField]
+    private GameObject startButton = null;
+    [SerializeField]
+    private GameObject repeatButton = null;
+
+    private int count = 0;
+
     private void Awake()
     {
         m_videoPlayer.loopPointReached += OnMovieFinished;
@@ -19,6 +26,18 @@ public class MovieController : MonoBehaviour
     private void OnDestroy()
     {
         m_videoPlayer.loopPointReached -= OnMovieFinished;
+    }
+
+    public void ManageButtons()
+    {
+        
+        if (count < 2)
+        {
+            repeatButton.SetActive(true);
+        }
+
+        startButton.SetActive(true);
+        count++;
     }
 
     void OnMovieFinished(VideoPlayer player)
