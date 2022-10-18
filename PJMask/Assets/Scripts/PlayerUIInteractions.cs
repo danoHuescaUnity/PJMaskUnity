@@ -8,6 +8,8 @@ public class PlayerUIInteractions : MonoBehaviour
     [SerializeField]
     private Animator wingsAnimator = null;
     [SerializeField]
+    private Animator raysAnimator = null;
+    [SerializeField]
     private GameObject guidePanel = null;
 
     private bool isInitialized = false;
@@ -15,6 +17,8 @@ public class PlayerUIInteractions : MonoBehaviour
     public void Shoot()
     {
         wingsAnimator.SetTrigger("Shoot");
+        raysAnimator.SetTrigger("Shoot");
+
         if(!isInitialized)
         {
             guidePanel = GameObject.Find("UIGuide");
