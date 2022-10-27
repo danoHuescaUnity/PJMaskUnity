@@ -14,6 +14,7 @@ public class ScoreDisplayElement : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        scoreText.text = initializeText + " 0";
         Player local = PhotonNetwork.LocalPlayer;
 
         if (local.CustomProperties.TryGetValue("Score", out object score))

@@ -35,7 +35,7 @@ public class PlayerListElement : MonoBehaviourPunCallbacks
     {
         if (player.CustomProperties.TryGetValue("Score", out object score))
         {
-            scoreText.text = score.ToString();
+            scoreText.text = "Score: " + score.ToString();
         }
     }
 

@@ -16,7 +16,12 @@ public class CreateAndJoinRoom : MonoBehaviourPunCallbacks
 
     public void JoinRoom()
     {
-        PhotonNetwork.JoinRoom(roomName);
+        if (!PhotonNetwork.InRoom)
+            PhotonNetwork.JoinRoom(roomName);
+        else
+        {
+            PhotonNetwork.LoadLevel("ARScene");
+        }
     }
 
     public override void OnJoinRoomFailed(short returnCode, string message)

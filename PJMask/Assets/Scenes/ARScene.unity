@@ -648,7 +648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 220055281}
   mHiddenRoot: {fileID: 0}
-  mTargetName: EXTINTOR copy
+  mTargetName: Asset 8
   mDatasetName: 
   mCastedBehaviour: {fileID: 220055281}
   mMeshFilter: {fileID: 0}
@@ -737,14 +737,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: EXTINTOR copy
+  mTrackableName: Asset 8
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.0833334
+  mAspectRatio: 1.085896
   mImageTargetType: 3
-  mWidth: 0.1846154
+  mWidth: 0.18417972
   mHeight: 0.20000003
-  mRuntimeTexture: {fileID: 2800000, guid: be84236e2118cfe4ca3bbe7494927e0d, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 5534b109297a5d84c8af808589324929, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 220055277}
 --- !u!4 &220055282
@@ -983,14 +983,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 225475389}
-  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0.49999997, y: -0.50000006, z: 0.4999985, w: 0.50000155}
   m_LocalPosition: {x: 0, y: 0, z: 0.00094}
   m_LocalScale: {x: 0.0015268504, y: 0.0015268504, z: 0.0015268504}
   m_Children:
   - {fileID: 400398317}
   m_Father: {fileID: 1457214029}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00173, y: 0.002}
@@ -1178,14 +1178,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249578192}
-  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0.49999997, y: -0.50000006, z: 0.4999985, w: 0.50000155}
   m_LocalPosition: {x: 0, y: 0, z: 0.00094}
   m_LocalScale: {x: 0.0015268504, y: 0.0015268504, z: 0.0015268504}
   m_Children:
   - {fileID: 967081184}
   m_Father: {fileID: 849716349}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00173, y: 0.002}
@@ -1448,14 +1448,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312098956}
-  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0.49999997, y: -0.50000006, z: 0.4999985, w: 0.50000155}
   m_LocalPosition: {x: 0, y: 0, z: 0.00094}
   m_LocalScale: {x: 0.0015268504, y: 0.0015268504, z: 0.0015268504}
   m_Children:
   - {fileID: 1924674950}
   m_Father: {fileID: 583279282}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00173, y: 0.002}
@@ -1643,14 +1643,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323303780}
-  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0.49999997, y: -0.50000006, z: 0.4999985, w: 0.50000155}
   m_LocalPosition: {x: 0, y: 0, z: 0.00094}
   m_LocalScale: {x: 0.0015268504, y: 0.0015268504, z: 0.0015268504}
   m_Children:
   - {fileID: 2056449733}
   m_Father: {fileID: 799928855}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00173, y: 0.002}
@@ -2211,14 +2211,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453462385}
-  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0.49999994, y: -0.50000006, z: 0.49999848, w: 0.50000155}
   m_LocalPosition: {x: 0, y: 0, z: 0.00094}
   m_LocalScale: {x: 0.0015268504, y: 0.0015268504, z: 0.0015268504}
   m_Children:
   - {fileID: 715643378}
   m_Father: {fileID: 1302356810}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00173, y: 0.002}
@@ -2311,14 +2311,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478111928}
-  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0.49999997, y: -0.50000006, z: 0.4999985, w: 0.50000155}
   m_LocalPosition: {x: 0, y: 0, z: 0.00094}
   m_LocalScale: {x: 0.0015268504, y: 0.0015268504, z: 0.0015268504}
   m_Children:
   - {fileID: 721328427}
   m_Father: {fileID: 562694657}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00173, y: 0.002}
@@ -2590,7 +2590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 555490419}
   mHiddenRoot: {fileID: 0}
-  mTargetName: NO FUMAR copy
+  mTargetName: Asset 12
   mDatasetName: 
   mCastedBehaviour: {fileID: 555490419}
   mMeshFilter: {fileID: 0}
@@ -2679,14 +2679,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: NO FUMAR copy
+  mTrackableName: Asset 12
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.082251
+  mAspectRatio: 1.0847458
   mImageTargetType: 3
-  mWidth: 0.18480003
+  mWidth: 0.184375
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: ec9203779a62d244883f0e3c6506e771, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 4bca95ab1fe2d36468695b17449c75aa, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 555490415}
 --- !u!4 &555490420
@@ -2739,7 +2739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 562694656}
   mHiddenRoot: {fileID: 0}
-  mTargetName: UBICACION
+  mTargetName: Asset 19
   mDatasetName: 
   mCastedBehaviour: {fileID: 562694656}
   mMeshFilter: {fileID: 0}
@@ -2828,14 +2828,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: UBICACION
+  mTrackableName: Asset 19
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.0833334
+  mAspectRatio: 1.5352323
   mImageTargetType: 3
-  mWidth: 0.1846154
+  mWidth: 0.13027346
   mHeight: 0.20000003
-  mRuntimeTexture: {fileID: 2800000, guid: 682b8c008341d0a48a2ac3907090fb48, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 2df1d2d1df592154db406bed3c338a92, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 562694652}
 --- !u!4 &562694657
@@ -2845,14 +2845,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562694651}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.7070975, z: -0, w: 0.7071162}
   m_LocalPosition: {x: -0.2478, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 478111929}
   m_Father: {fileID: 0}
   m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 89.998, z: 0}
 --- !u!1 &583279276
 GameObject:
   m_ObjectHideFlags: 0
@@ -2888,7 +2888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 583279281}
   mHiddenRoot: {fileID: 0}
-  mTargetName: pajaro chsitoso2 copy
+  mTargetName: Asset 14
   mDatasetName: 
   mCastedBehaviour: {fileID: 583279281}
   mMeshFilter: {fileID: 0}
@@ -2977,14 +2977,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: pajaro chsitoso2 copy
+  mTrackableName: Asset 14
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.9541985
+  mAspectRatio: 1.9844961
   mImageTargetType: 3
-  mWidth: 0.20000002
-  mHeight: 0.19083971
-  mRuntimeTexture: {fileID: 2800000, guid: 9eaa29e3faf762a4494c4fc481d38dfa, type: 3}
+  mWidth: 0.10078126
+  mHeight: 0.20000002
+  mRuntimeTexture: {fileID: 2800000, guid: 9efb9398361098947be0ab65e085d65b, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 583279277}
 --- !u!4 &583279282
@@ -2994,14 +2994,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583279276}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
   m_LocalPosition: {x: 0.9158, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 312098957}
   m_Father: {fileID: 0}
   m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &601024234
 GameObject:
   m_ObjectHideFlags: 0
@@ -3028,14 +3028,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601024234}
-  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0.49999997, y: -0.50000006, z: 0.4999985, w: 0.50000155}
   m_LocalPosition: {x: 0, y: 0, z: 0.00094}
   m_LocalScale: {x: 0.0015268504, y: 0.0015268504, z: 0.0015268504}
   m_Children:
   - {fileID: 427100110}
   m_Father: {fileID: 1537452899}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00173, y: 0.002}
@@ -3562,7 +3562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 799928854}
   mHiddenRoot: {fileID: 0}
-  mTargetName: salida copy
+  mTargetName: Asset 17
   mDatasetName: 
   mCastedBehaviour: {fileID: 799928854}
   mMeshFilter: {fileID: 0}
@@ -3651,14 +3651,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: salida copy
+  mTrackableName: Asset 17
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.6906077
+  mAspectRatio: 1.7996485
   mImageTargetType: 3
-  mWidth: 0.20000002
-  mHeight: 0.13812156
-  mRuntimeTexture: {fileID: 2800000, guid: 5e7a9ece63540f340af9ac4aa2067f41, type: 3}
+  mWidth: 0.11113282
+  mHeight: 0.20000002
+  mRuntimeTexture: {fileID: 2800000, guid: c1566827e37fa1846ba3a1993d601604, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 799928850}
 --- !u!4 &799928855
@@ -3668,14 +3668,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799928849}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
   m_LocalPosition: {x: 0.215, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 323303781}
   m_Father: {fileID: 0}
   m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &810232415
 GameObject:
   m_ObjectHideFlags: 0
@@ -3877,7 +3877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 849716348}
   mHiddenRoot: {fileID: 0}
-  mTargetName: CIRCUITO copy
+  mTargetName: Asset 6
   mDatasetName: 
   mCastedBehaviour: {fileID: 849716348}
   mMeshFilter: {fileID: 0}
@@ -3966,14 +3966,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: CIRCUITO copy
+  mTrackableName: Asset 6
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.9155629
+  mAspectRatio: 1.3491436
   mImageTargetType: 3
-  mWidth: 0.20000002
-  mHeight: 0.1831126
-  mRuntimeTexture: {fileID: 2800000, guid: eb217992b88f8964f834ccb29a2a1858, type: 3}
+  mWidth: 0.1482422
+  mHeight: 0.20000003
+  mRuntimeTexture: {fileID: 2800000, guid: 894ed58eb98ad6040aa23a3268f47311, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 849716344}
 --- !u!4 &849716349
@@ -3983,14 +3983,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 849716343}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
   m_LocalPosition: {x: 2.967, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 249578193}
   m_Father: {fileID: 0}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &895701863
 GameObject:
   m_ObjectHideFlags: 0
@@ -4123,14 +4123,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943923356}
-  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0.49999997, y: -0.50000006, z: 0.4999985, w: 0.50000155}
   m_LocalPosition: {x: 0, y: 0, z: 0.00094}
   m_LocalScale: {x: 0.0015268504, y: 0.0015268504, z: 0.0015268504}
   m_Children:
   - {fileID: 1686817037}
   m_Father: {fileID: 1781302483}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00173, y: 0.002}
@@ -4550,7 +4550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1131806381}
   mHiddenRoot: {fileID: 0}
-  mTargetName: NO CAMARAS copy
+  mTargetName: Asset 11
   mDatasetName: 
   mCastedBehaviour: {fileID: 1131806381}
   mMeshFilter: {fileID: 0}
@@ -4639,14 +4639,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: NO CAMARAS copy
+  mTrackableName: Asset 11
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.082251
+  mAspectRatio: 1.085896
   mImageTargetType: 3
-  mWidth: 0.18480003
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 7f413bb557c9a0e4ca201a83f44e4d87, type: 3}
+  mWidth: 0.1841797
+  mHeight: 0.19999999
+  mRuntimeTexture: {fileID: 2800000, guid: f2680361ec1ca004b94ce89a2fc70673, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1131806377}
 --- !u!4 &1131806382
@@ -4699,7 +4699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1135022723}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ave2 copy
+  mTargetName: Asset 3
   mDatasetName: 
   mCastedBehaviour: {fileID: 1135022723}
   mMeshFilter: {fileID: 0}
@@ -4788,14 +4788,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: ave2 copy
+  mTrackableName: Asset 3
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.6973501
+  mAspectRatio: 1.4341736
   mImageTargetType: 3
-  mWidth: 0.20000002
-  mHeight: 0.13947003
-  mRuntimeTexture: {fileID: 2800000, guid: 5944ea2fe299fcd48943ceeb28ec6605, type: 3}
+  mWidth: 0.13945314
+  mHeight: 0.20000002
+  mRuntimeTexture: {fileID: 2800000, guid: 412a43860b16fff43b05bdc6929c1961, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1135022719}
 --- !u!4 &1135022724
@@ -4805,14 +4805,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135022718}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
   m_LocalPosition: {x: 3.906, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1587513127}
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1136025435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5026,14 +5026,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: ave1 copy
+  mTrackableName: Asset 2
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.7418398
+  mAspectRatio: 1.0148662
   mImageTargetType: 3
-  mWidth: 0.20000003
-  mHeight: 0.14836799
-  mRuntimeTexture: {fileID: 2800000, guid: fdd8462ced8971447bd717df1b38ea35, type: 3}
+  mWidth: 0.19707035
+  mHeight: 0.20000003
+  mRuntimeTexture: {fileID: 2800000, guid: 7b8bc078efcf06c41ae4592343f9ca8f, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1172513373}
 --- !u!4 &1172513370
@@ -5091,7 +5091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1172513369}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ave1 copy
+  mTargetName: Asset 2
   mDatasetName: 
   mCastedBehaviour: {fileID: 1172513369}
   mMeshFilter: {fileID: 0}
@@ -5256,7 +5256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 481f1a789d85a1643a2def0e4a1d7fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isManager: 1
+  isManager: 0
   mainCanvas: {fileID: 895701867}
 --- !u!1 &1247980910
 GameObject:
@@ -5457,14 +5457,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: ABIERTO copy
+  mTrackableName: Asset 1
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.49284253
+  mAspectRatio: 0.46777344
   mImageTargetType: 3
   mWidth: 0.2
-  mHeight: 0.09856851
-  mRuntimeTexture: {fileID: 2800000, guid: bbd015dc56474a540a8a0f2ba963e7bb, type: 3}
+  mHeight: 0.09355469
+  mRuntimeTexture: {fileID: 2800000, guid: 4a56324090107f14887aa0ef628039e1, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1293947766}
 --- !u!4 &1293947763
@@ -5522,7 +5522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1293947762}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ABIERTO copy
+  mTargetName: Asset 1
   mDatasetName: 
   mCastedBehaviour: {fileID: 1293947762}
   mMeshFilter: {fileID: 0}
@@ -5562,7 +5562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1302356809}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ave3 copy
+  mTargetName: Asset 4
   mDatasetName: 
   mCastedBehaviour: {fileID: 1302356809}
   mMeshFilter: {fileID: 0}
@@ -5651,14 +5651,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: ave3 copy
+  mTrackableName: Asset 4
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.51867217
+  mAspectRatio: 1.615142
   mImageTargetType: 3
-  mWidth: 0.20000003
-  mHeight: 0.10373445
-  mRuntimeTexture: {fileID: 2800000, guid: 01fe0832b763e6244a78e24ed87c865b, type: 3}
+  mWidth: 0.12382814
+  mHeight: 0.20000003
+  mRuntimeTexture: {fileID: 2800000, guid: 54ab9c2134c24724c9150d4c0d3bd459, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1302356805}
 --- !u!4 &1302356810
@@ -5668,14 +5668,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302356804}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.7071079}
   m_LocalPosition: {x: 3.603, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 453462386}
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1311480986
 GameObject:
   m_ObjectHideFlags: 0
@@ -5811,7 +5811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1345176809}
   mHiddenRoot: {fileID: 0}
-  mTargetName: pajaro chsitoso4 copy
+  mTargetName: Asset 16
   mDatasetName: 
   mCastedBehaviour: {fileID: 1345176809}
   mMeshFilter: {fileID: 0}
@@ -5900,14 +5900,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: pajaro chsitoso4 copy
+  mTrackableName: Asset 16
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.7730496
+  mAspectRatio: 1
   mImageTargetType: 3
-  mWidth: 0.11280002
+  mWidth: 0.20000002
   mHeight: 0.20000002
-  mRuntimeTexture: {fileID: 2800000, guid: 979c7cbaeecbe6d44ae651dceb728675, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: c6b9de74be373b44798de90eff9abe7a, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1345176805}
 --- !u!4 &1345176810
@@ -6238,7 +6238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1457214028}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ENTRADA CON copy
+  mTargetName: Asset 7
   mDatasetName: 
   mCastedBehaviour: {fileID: 1457214028}
   mMeshFilter: {fileID: 0}
@@ -6327,14 +6327,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: ENTRADA CON copy
+  mTrackableName: Asset 7
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1
+  mAspectRatio: 1.3264248
   mImageTargetType: 3
-  mWidth: 0.20000003
+  mWidth: 0.15078127
   mHeight: 0.20000003
-  mRuntimeTexture: {fileID: 2800000, guid: 2a0ac5c447088724b853f4dbd3a236cc, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 4d377295bce94a34ba1b5707563b31db, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1457214024}
 --- !u!4 &1457214029
@@ -6344,14 +6344,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1457214023}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.7071037, z: -0, w: 0.7071098}
   m_LocalPosition: {x: 2.688, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 225475390}
   m_Father: {fileID: 0}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1533254558
 GameObject:
   m_ObjectHideFlags: 0
@@ -6378,14 +6378,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533254558}
-  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0.49999386, y: -0.5000062, z: 0.50000477, w: 0.49999517}
   m_LocalPosition: {x: 0, y: 0, z: 0.00094}
   m_LocalScale: {x: 0.0015268504, y: 0.0015268504, z: 0.0015268504}
   m_Children:
   - {fileID: 1247980911}
   m_Father: {fileID: 2069325436}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90.001}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00173, y: 0.002}
@@ -6487,7 +6487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1537452898}
   mHiddenRoot: {fileID: 0}
-  mTargetName: pajaro chsitoso3 copy
+  mTargetName: Asset 15
   mDatasetName: 
   mCastedBehaviour: {fileID: 1537452898}
   mMeshFilter: {fileID: 0}
@@ -6576,14 +6576,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: pajaro chsitoso3 copy
+  mTrackableName: Asset 15
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.1876484
+  mAspectRatio: 1.4301676
   mImageTargetType: 3
-  mWidth: 0.16840003
+  mWidth: 0.13984378
   mHeight: 0.20000003
-  mRuntimeTexture: {fileID: 2800000, guid: d43e2099b9fdddf4ea143cdcb85acf30, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 3449d85f696340c4cae93efb0f39e631, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1537452894}
 --- !u!4 &1537452899
@@ -6593,14 +6593,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537452893}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
   m_LocalPosition: {x: 0.6832, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 601024235}
   m_Father: {fileID: 0}
   m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1575827037
 GameObject:
   m_ObjectHideFlags: 0
@@ -6727,14 +6727,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587513126}
-  m_LocalRotation: {x: 0.70710576, y: -0, z: -0, w: 0.70710784}
+  m_LocalRotation: {x: 0.5000058, y: -0.4999941, z: 0.49999258, w: 0.50000757}
   m_LocalPosition: {x: 0, y: 0, z: 0.00094}
   m_LocalScale: {x: 0.0015268504, y: 0.0015268504, z: 0.0015268504}
   m_Children:
   - {fileID: 727469177}
   m_Father: {fileID: 1135022724}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 89.998}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00173, y: 0.002}
@@ -6931,7 +6931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1674812602}
   mHiddenRoot: {fileID: 0}
-  mTargetName: NO ALIMENTOS copy
+  mTargetName: Asset 10
   mDatasetName: 
   mCastedBehaviour: {fileID: 1674812602}
   mMeshFilter: {fileID: 0}
@@ -7020,14 +7020,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: NO ALIMENTOS copy
+  mTrackableName: Asset 10
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.082251
+  mAspectRatio: 1.0847458
   mImageTargetType: 3
-  mWidth: 0.18480003
+  mWidth: 0.184375
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 6e26edd2ed633c14d973904e8f6ca431, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: 7d63867e949a91042b493dea7a447373, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1674812598}
 --- !u!4 &1674812603
@@ -7080,7 +7080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1681112848}
   mHiddenRoot: {fileID: 0}
-  mTargetName: GAFETE copy
+  mTargetName: Asset 9
   mDatasetName: 
   mCastedBehaviour: {fileID: 1681112848}
   mMeshFilter: {fileID: 0}
@@ -7169,14 +7169,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: GAFETE copy
+  mTrackableName: Asset 9
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.75208336
+  mAspectRatio: 0.915039
   mImageTargetType: 3
   mWidth: 0.20000002
-  mHeight: 0.15041669
-  mRuntimeTexture: {fileID: 2800000, guid: 924d2d484a8a2354d88e4ebefd989466, type: 3}
+  mHeight: 0.18300782
+  mRuntimeTexture: {fileID: 2800000, guid: 2e62fb94ca5c1754e83d9f7415bf0629, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1681112844}
 --- !u!4 &1681112849
@@ -7509,7 +7509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1710443022}
   mHiddenRoot: {fileID: 0}
-  mTargetName: pajaro chsitoso1 copy
+  mTargetName: Asset 13
   mDatasetName: 
   mCastedBehaviour: {fileID: 1710443022}
   mMeshFilter: {fileID: 0}
@@ -7598,14 +7598,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: pajaro chsitoso1 copy
+  mTrackableName: Asset 13
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 1.0775862
+  mAspectRatio: 1.085896
   mImageTargetType: 3
-  mWidth: 0.18560003
+  mWidth: 0.18417971
   mHeight: 0.20000002
-  mRuntimeTexture: {fileID: 2800000, guid: f0e5b5a7ff959ac49a399779a3a73653, type: 3}
+  mRuntimeTexture: {fileID: 2800000, guid: b0ee7077e3bc1ea4d9c3a74840ecd1c4, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1710443018}
 --- !u!4 &1710443023
@@ -7858,7 +7858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1781302482}
   mHiddenRoot: {fileID: 0}
-  mTargetName: ave4 copy
+  mTargetName: Asset 5
   mDatasetName: 
   mCastedBehaviour: {fileID: 1781302482}
   mMeshFilter: {fileID: 0}
@@ -7947,14 +7947,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: ave4 copy
+  mTrackableName: Asset 5
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.61957866
+  mAspectRatio: 1.9284369
   mImageTargetType: 3
-  mWidth: 0.20000003
-  mHeight: 0.123915754
-  mRuntimeTexture: {fileID: 2800000, guid: 8ef9bb076a56d5f41a74354999cf2be1, type: 3}
+  mWidth: 0.10371096
+  mHeight: 0.20000003
+  mRuntimeTexture: {fileID: 2800000, guid: e29d6cf7bf975f747b72df544542090f, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 1781302478}
 --- !u!4 &1781302483
@@ -7964,14 +7964,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1781302477}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.70710367, z: -0, w: 0.70711}
   m_LocalPosition: {x: 3.274, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 943923357}
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 89.999, z: 0}
 --- !u!1 &1914450750
 GameObject:
   m_ObjectHideFlags: 0
@@ -8469,7 +8469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 2069325435}
   mHiddenRoot: {fileID: 0}
-  mTargetName: TICKET copy
+  mTargetName: Asset 18
   mDatasetName: 
   mCastedBehaviour: {fileID: 2069325435}
   mMeshFilter: {fileID: 0}
@@ -8558,14 +8558,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  mTrackableName: TICKET copy
+  mTrackableName: Asset 18
   mInitializedInEditor: 1
   mDataSetPath: 
-  mAspectRatio: 0.5010395
+  mAspectRatio: 1.5192878
   mImageTargetType: 3
-  mWidth: 0.20000003
-  mHeight: 0.10020792
-  mRuntimeTexture: {fileID: 2800000, guid: 474fbd6bce725374a80d6ae5d65a3694, type: 3}
+  mWidth: 0.13164064
+  mHeight: 0.20000003
+  mRuntimeTexture: {fileID: 2800000, guid: 02b2d643a8c2c814a923fb0cefaa73e8, type: 3}
   mMotionHint: 1
   mPreview: {fileID: 2069325431}
 --- !u!4 &2069325436
@@ -8575,14 +8575,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069325430}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
   m_LocalPosition: {x: -0.015100002, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1533254559}
   m_Father: {fileID: 0}
   m_RootOrder: 23
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2069918787
 GameObject:
   m_ObjectHideFlags: 0

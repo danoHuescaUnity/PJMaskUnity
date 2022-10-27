@@ -19,7 +19,7 @@ public class PlayerUIInteractions : MonoBehaviour
         wingsAnimator.SetTrigger("Shoot");
         raysAnimator.SetTrigger("Shoot");
 
-        if(!isInitialized)
+        if(!isInitialized && guidePanel != null)
         {
             guidePanel = GameObject.Find("UIGuide");
             guidePanel.SetActive(false);

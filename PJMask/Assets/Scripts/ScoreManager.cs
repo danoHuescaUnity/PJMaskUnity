@@ -27,7 +27,7 @@ public class ScoreManager : MonoBehaviour
 
     private void Start()
     {
-        scoreText.text = "0";
+        scoreText.text = "Score: 0";
     }
 
     private void Update()
@@ -41,7 +41,7 @@ public class ScoreManager : MonoBehaviour
     public void Scored()
     {
         score++;
-        scoreText.text = "Score : " + score.ToString();
+        scoreText.text = "Score: " + score.ToString();
         Hashtable hash = new Hashtable();
         hash.Add("Score", score);
         PhotonNetwork.LocalPlayer.SetCustomProperties(hash);

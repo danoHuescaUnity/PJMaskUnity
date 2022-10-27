@@ -71,8 +71,17 @@ public class Countdown : MonoBehaviour
 
     void OnCountDownFinished()
     {
-        PhotonNetwork.LeaveRoom();
-        PhotonNetwork.LeaveLobby();
+        try
+        {
+            PhotonNetwork.LeaveRoom();
+        }
+
+        catch (System.Exception)
+        {
+
+            
+        }
+
         if (OnCountownFinished != null)
             OnCountownFinished.Invoke();
     }
