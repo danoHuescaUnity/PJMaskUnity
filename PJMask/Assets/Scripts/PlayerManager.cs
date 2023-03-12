@@ -27,7 +27,7 @@ public class PlayerManager : MonoBehaviour
     private void Update()
     {
         Swipe();
-#if UNITY_EDITOR
+#if UNITY_EDITOR && !IS_MANAGER
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Shoot();
@@ -37,6 +37,9 @@ public class PlayerManager : MonoBehaviour
 
     private void Swipe()
     {
+#if IS_MANAGER
+        return;
+#endif
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             startTouchPos = Input.GetTouch(0).position;

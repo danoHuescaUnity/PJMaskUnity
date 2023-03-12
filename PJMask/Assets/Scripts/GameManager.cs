@@ -12,7 +12,7 @@ using Hashtable = ExitGames.Client.Photon.Hashtable;
 public class GameManager : MonoBehaviourPunCallbacks
 {
     public static GameManager instance = null;
-
+    
     public bool isManager = false;
 
     [SerializeField]
@@ -25,6 +25,12 @@ public class GameManager : MonoBehaviourPunCallbacks
             Destroy(this.gameObject);
         else
             instance = this;
+
+#if IS_MANAGER
+        isManager = true;
+#else
+        isManager = false;
+#endif
     }
 
     private void Start()
