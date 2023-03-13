@@ -5189,6 +5189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4e21a4ebd56b57478d8354ddd1d6683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerList: {fileID: 0}
   scoreText: {fileID: 1182307430}
   maxScore: 10
 --- !u!1 &1185217376
@@ -8027,7 +8028,7 @@ MonoBehaviour:
   startOnLoad: 1
   hideCountdownUntil: 1
   timeLeftToShowCountdown: 20
-  secunds: 600
+  secunds: 300
   OnCountownFinished:
     m_PersistentCalls:
       m_Calls:
